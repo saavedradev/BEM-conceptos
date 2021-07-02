@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metodología BEM</title>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,400;1,600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	
+	<!--Bolques, Elementos, Modificadores-->
+	<!-- Los bloques van a ser los componentes de nuestro sitio que queremos 
+		poder reutilizar en alguna otra parte de nuestra página-->
+	<div class="contenedor"> <!--Bloque-->
+
+		<div class="contenedor__cards">
+			<div class="card"> <!--Bloque-->
+				<a href="#" class="card__thumbnail">
+					<img class="card__img" src="img/1.jpg" alt="">
+					<div class="card__textos">
+						<h3 class="card__titulo">
+							<a href="#" class="card__enlace"> Lorem ipsum dolor sit amet</a>
+						</h3>
+						<p class="card__extracto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur perferendis quasi error corrupti quae odio totam doloribus recusandae sunt rerum in, magnam amet modi tempora adipisci. Provident assumenda consectetur in?</p>
+						<a href="#" class="boton boton--absolute">  <!--Bloque-->
+							<span class="boton__texto">Ver más</span>
+							<i class="boton__icono fas fa-arrow-right"></i>
+						</a>
+					</div>
+				</a>
+			</div>
+		</div>
+
+		<div class="frase"><!--Bloque-->
+			<h2 class="frase__texto">
+				texto
+			</h2>
+			<a href="" role="button" class="boton boton--verde">
+				<span class="boton__texto"> Comprar</span>
+				<i class="fas fa-shopping-cart"></i>
+			</a>
+
+		</div>
+	</div>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
